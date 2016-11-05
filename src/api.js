@@ -1,6 +1,6 @@
 import $ from 'jquery'
 
-const url = 'http://connpass.com/api/v1/event/'
+const url = 'https://connpass.com/api/v1/event/'
 
 export const getEvents = (data) => {
 	const defer = $.Deferred()
